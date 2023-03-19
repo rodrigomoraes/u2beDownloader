@@ -1,6 +1,11 @@
 # U2be Downloader
 
-A lightweight downloader and audio extractor for youtube videos.
+![GitHub Pipenv locked Python version](https://img.shields.io/github/pipenv/locked/python-version/rodrigomoraes/u2beDownloader)
+![GitHub Pipenv locked dependency version](https://img.shields.io/github/pipenv/locked/dependency-version/rodrigomoraes/u2beDownloader/pytube)
+![GitHub Pipenv locked dependency version](https://img.shields.io/github/pipenv/locked/dependency-version/rodrigomoraes/u2beDownloader/moviepy)
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+
+u2beDownloader is a lightweight downloader and audio extractor for youtube videos.
 
 To use is very simple, just follow the instructions below:
 
