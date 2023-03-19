@@ -36,3 +36,19 @@ After installed all dependencies, you can run the program using this command:
 ```
 
 Now is just follow the instructions in interface to download the videos or audios.
+
+
+## Disclaimer
+
+Due to a bug in the library pytube, before run the program, you need a little change in the  **'cipher.py'** file.
+
+This file is located in python's packages directory and once located you need **go to line 411 file** and do the change below:
+
+```diff
+- transform_plan_raw = find_object_from_startpoint(raw_code, match.span()[1] - 1)
++ transform_plan_raw = js
+```
+An [issue](https://github.com/pytube/pytube/issues/1512) has been opened in the official pytube repositories to resolve this bug.
+
+
+
