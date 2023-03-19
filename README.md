@@ -27,6 +27,8 @@ Already in directory, you need install all dependencies run this command:
   pip install -r requirements.txt
 ```
 
+## How to use
+
 After installed all dependencies, you can run the program using this command:
 
 ```bash
