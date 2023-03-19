@@ -1,2 +1,4 @@
 moviepy
 -e git+https://github.com/pytube/pytube.git@master#egg=pytube
+pyfiglet
+termcolor
