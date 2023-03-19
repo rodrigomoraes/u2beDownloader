@@ -1,16 +1,14 @@
 from pytube import YouTube
 from moviepy.editor import *
+from termcolor import cprint
+from pyfiglet import figlet_format
 import os
-import shutil
 import sys
 
 
 def main():
     while True:
-        print("-" * 20)
-        print("ut downloader")
-        print("-" * 20)
-        print("")
+        cprint(figlet_format('U2BE Downloader', font='doom'))
         print("Selecione uma opção")
         print("[0] - Baixar Video")
         print("[1] - Baixar Audio")
